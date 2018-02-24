@@ -1,0 +1,36 @@
+{
+  "name": "movie",
+  "version": "0.0.1",
+  "description": "movie CLI",
+  "private": true,
+  "bin": {
+    "movie": "bin/movie"
+  },
+  "scripts": {
+    "format": "prettier --write **/*.{js,ts,tsx,json}",
+    "test": "ava",
+    "watch": "ava --watch",
+    "coverage": "nyc ava"
+  },
+  "files": [
+    "tsconfig.json",
+    "LICENSE",
+    "readme.md",
+    "docs",
+    "bin",
+    "src"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gluegun": "next",
+    "imdb-api": "^3.1.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "prettier": "^1.7.4",
+    "ava": "^0.22.0",
+    "nyc": "^11.2.1"
+  }
+}
