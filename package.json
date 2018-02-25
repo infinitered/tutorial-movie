@@ -1,6 +1,6 @@
 {
   "name": "movie",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "movie CLI",
   "private": true,
   "bin": {
@@ -22,15 +22,15 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "gluegun": "next",
+    "gluegun": "infinitered/github#master",
     "imdb-api": "^3.1.2",
     "ts-node": "^3.3.0",
     "typescript": "^2.5.3"
   },
   "devDependencies": {
     "@types/node": "^8.0.47",
-    "prettier": "^1.7.4",
     "ava": "^0.22.0",
-    "nyc": "^11.2.1"
+    "nyc": "^11.2.1",
+    "prettier": "^1.7.4"
   }
 }
