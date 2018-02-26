@@ -10,6 +10,7 @@ API KEY>`
 module.exports = {
   name: 'search',
   alias: ['s'],
+  description: 'Searches for and displays information about a movie',
   run: async (toolbox) => {
     // retrieve the tools from the toolbox that we will need
     const { parameters, print, prompt, imdb } = toolbox

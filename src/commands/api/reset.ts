@@ -1,5 +1,7 @@
 module.exports = {
   name: 'reset',
+  alias: ['delete', 'rm'],
+  description: 'Deletes the OMDB API key from your system',
   run: async (toolbox) => {
     // retrieve the tools from the toolbox that we will need
     const { prompt, imdb, print } = toolbox
