@@ -1,7 +1,7 @@
 module.exports = {
   name: 'movie',
   description: 'Prints info about the movie CLI',
-  run: async (context) => {
+  run: async context => {
     const { print } = context
 
     print.newline()
@@ -9,5 +9,5 @@ module.exports = {
     print.newline()
     print.info('  movie search "Road House"')
     print.info('  movie api reset')
-  }
+  },
 }

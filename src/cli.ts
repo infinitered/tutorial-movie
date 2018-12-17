@@ -7,6 +7,7 @@ async function run(argv) {
   // create a CLI runtime
   const cli = build('movie')
     .src(__dirname)
+    // .plugin('../movie-imdb')
     .help() // provides default for help, h, --help, -h
     .version() // provides default for version, v, --version, -v
     .create()

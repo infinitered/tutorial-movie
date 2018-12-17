@@ -1,7 +1,7 @@
 {
   "name": "movie",
   "version": "0.1.0",
-  "description": "movie CLI",
+  "description": "movie CLI demo powered by Gluegun",
   "private": true,
   "bin": {
     "movie": "bin/movie"
@@ -12,17 +12,10 @@
     "watch": "ava --watch",
     "coverage": "nyc ava"
   },
-  "files": [
-    "tsconfig.json",
-    "LICENSE",
-    "readme.md",
-    "docs",
-    "bin",
-    "src"
-  ],
+  "files": ["tsconfig.json", "LICENSE", "readme.md", "docs", "bin", "src"],
   "license": "MIT",
   "dependencies": {
-    "gluegun": "infinitered/github#master",
+    "gluegun": "../gluegun",
     "imdb-api": "^3.1.2",
     "ts-node": "^3.3.0",
     "typescript": "^2.5.3"
